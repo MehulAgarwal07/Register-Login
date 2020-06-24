@@ -2,15 +2,16 @@ body {
     background-image: url('file:///home/mehulagarwal/go/src/github.com/MehulAgarwal07/Register-Login/Frontend/Resources/Login.png');
   }
 
-h1 {
+#register {
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 10px;
     font-family: monospace;
     font-size: 40px;
     color: #0349FF;
 }
 
-h3 {
+#eyd {
+    margin-top: 15px;
     margin-left: 200px;
     font-family: monospace;
     font-size: 25px;
@@ -18,7 +19,30 @@ h3 {
     font-weight: 900;
 }
 
-#uname {
+#form #fname{
+    margin-left: 1300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 140px;
+    padding-left: 15px;
+    margin-top: 20px;
+    border: 4px solid #ABFAFF;
+    border-radius: 4px;
+    background-color: black;
+    color: #ABFAFF;
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+#form #fn {
+    margin-left: 1300px;
+    font-family: monospace;
+    font-size: 25px;
+    color: #ABFAFF;
+    font-weight: bolder; 
+}
+
+#form #lname {
     margin-left: 1300px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -33,31 +57,7 @@ h3 {
     font-weight: bold;
 }
 
-#un {
-    margin-left: 1300px;
-    font-family: monospace;
-    font-size: 25px;
-    color: #ABFAFF;
-    font-weight: bolder;
-    
-}
-
-#pword {
-    margin-left: 1300px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 140px;
-    padding-left: 15px;
-    margin-top: 20px;
-    border: 4px solid #ABFAFF;
-    border-radius: 4px;
-    background-color: black;
-    color: #ABFAFF;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-#pw {
+#form #ln {
     margin-left: 1300px;
     margin-top: 20px;
     font-family: monospace;
@@ -66,7 +66,7 @@ h3 {
     font-weight: bolder;
 }
 
-#sub {
+#form #next {
     margin-left: 1415px;
     margin-top: 30px;
     background-color: #ABFAFF;
@@ -81,17 +81,11 @@ h3 {
     font-weight: bold;
 }
 
-#reg {
+#step {
     margin-left: 1700px;
-    margin-top: 30px;
-    background-color: #ABFAFF;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    border-color: black;
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 20px;
+    color: #ABFAFF;
 }
+
